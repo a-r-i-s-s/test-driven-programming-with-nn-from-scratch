@@ -63,7 +63,7 @@ def load_mnist_from_csv(train_csv_path, test_csv_path, val_split=0.1):
 
 
 X_train, y_train, X_val, y_val, X_test, y_test = load_mnist_from_csv(
-    "./mnist_train.csv", "./mnist_test.csv", val_split=0.1
+    "./data/mnist_train.csv", "./data/mnist_test.csv", val_split=0.1
 )
 
 
